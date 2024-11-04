@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { buscarTodos, remover } from "../services/ContatoService";
+import { buscarTodos} from "../services/ContatoService";
 import Listagem from "./Listagem";
 
 

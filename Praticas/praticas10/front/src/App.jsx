@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Novo from "./pages/novo";
+import Novo from "./pages/Novo";
 import Editar from "./pages/Editar";
 import Listar from "./pages/Listar";
 import Erro404 from "./pages/Erro404";

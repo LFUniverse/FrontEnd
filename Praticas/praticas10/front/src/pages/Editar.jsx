@@ -1,5 +1,4 @@
 import { useState, useEffect} from "react";
-import { adicionar } from "../services/ContatoService";
 import { useParams, useNavigate } from "react-router-dom";
 import Cabecalho from "../components/Cabecalho";
 import Conteudo from "../components/Conteudo";
