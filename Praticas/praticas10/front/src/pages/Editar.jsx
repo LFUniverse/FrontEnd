@@ -19,7 +19,7 @@ function Editar () {
     } 
   };
   
-  const trataEnviar = (data) => {
+  const trataEnviar = async(data) => {
     const resposta = await atualizar({id, ...data});
     if (resposta.sucesso) {
       navigate("/");
